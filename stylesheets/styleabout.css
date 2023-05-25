@@ -1,0 +1,335 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,900&display=swap);
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63), rgba(0, 0, 0, 0.63)),url(../image/Untitled\ design\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+    margin:0;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+
+}
+/*Main Containers=====================================================================================================*/
+.acon{
+    display: flex;
+    max-width: 100vh;
+    max-height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.all{
+    background-color: rgb(24, 24, 24,0.63);
+    position:relative;
+    width: 90%;
+    border: 20px solid #b88d3e;
+    font-family: 'Source Sans Pro';   
+    padding: 10px;
+    margin: 10px; 
+    border-radius: 35px; 
+}
+
+.blog{
+    margin-bottom: 20px;
+    z-index: 97;
+}
+/*Text Adjustments=====================================================================================================*/
+.logo 
+{
+    width:120px;
+    height:100px;
+    display:inline-block;
+    overflow:hidden;
+    text-align: center;
+}
+.logo img
+{
+    width:100%;
+    height:100%;
+
+}
+.date{
+    color: #fff;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+
+}
+.date1{
+    color:#FDB62D;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.paragraph{
+    border-left: 5px solid #FDB62D;
+    padding-left: 5px;
+    color:#FDB62D;
+}
+h1{
+    font-size: 30px;
+    color: #FDB62D ;
+    font-weight: 600;
+}
+h3{
+    font-size: 20px;
+    color: #b88d3e;
+    font-weight: 600;
+}
+ul{
+    color: #fff;
+    font-weight: 400;
+    list-style:square;
+}
+ol{
+    color: #fff;
+    font-weight: 400;
+}
+p{
+    color: #fff;
+    font-weight: 200;
+}
+em{
+    font-weight: 600;
+}
+hr{
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+/*image Adjustments=====================================================================================================*/
+.np img, .np1 img, .imgc img{
+    max-width: 100vh;
+}
+.np{
+    width: 49.6%;
+    cursor: pointer;
+}
+.np1{
+    width: 100%;
+    cursor: pointer;
+}
+.imgc{
+width: 100%;
+margin: 0%;
+}
+/*link and others transform=====================================================================================================*/
+a{
+    color: #FDB62D;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/*Header====================================================================================*/
+header
+{
+    position: relative;
+    top: 0px;
+    width: 100%;
+    z-index: 98;
+    background-image: url(../image/golden\ skies.png);
+    border: 3px inset #b88d3e;
+    display:inline;
+    z-index: 95;
+    font-family: 'Source Sans Pro';   
+}
+.navlink{
+    list-style: square;
+}
+.contain
+{
+    width: 100%;
+    margin: auto;
+    align-items: center;
+    display:flex;
+}
+
+.navbar
+{   
+    width:auto;
+    max-width: 95%;
+    margin-left: auto; margin-right: auto;
+    min-height: 90px;
+    justify-content: space-between;
+    align-items:center;
+    display:block;
+    overflow: hidden;
+}
+
+.navmenu
+{
+    margin-top: auto;
+    position:inline-block;
+    font-size: medium;
+    width:auto;
+    max-width: 95%;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+    cursor: pointer;
+    background-color: #2e2c2c;
+    border: #2e2c2c 8px solid;
+    border-radius: 13px;
+    overflow: hidden;
+}
+.navmenu .navlink
+{
+    font-size:medium;
+    background-color: #2e2c2c;
+    border: #2e2c2c 8px solid;
+    border-radius: 13px;
+    list-style:none;
+    display:inline-block;
+}
+.navmenu .navlink
+{
+    font-weight: 400;
+}
+.navmenu .navlink a:hover
+{
+    background-color: #FDB62D;
+    border: #FDB62D 5px solid;
+    color:#2e2c2c;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+
+
+/*====================================================================================*/
+.footer
+{
+    width:100%;
+    height:auto;
+    top:50%; left:50%;
+    padding:2%;
+    max-width: 100%;
+    max-height: 100%;
+    border: #b88d3e inset;
+    background-color: #2e2c2c;
+    display:flex;
+    Bottom:0px;
+    justify-content: center;
+}
+.footerbg
+{   
+    width: 95%; height: min-content;
+    background-color: #1a1a1a;
+    border: #1a1a1a 2px solid;
+    border-radius: 5px;
+    padding:0%;
+}
+/*====================================================================================*/
+.footerbg .plat1
+{
+    display:inline-flex;
+    height: auto;
+    width:auto;
+    margin-left:auto; margin-right: auto;
+    padding:0px;
+}
+.footerbg .plat1 .paragraph
+{
+    font-size: 30px;
+}
+.footerbg .navmenu1
+{
+    position:inline-block;
+    font-size: medium;
+    width:auto;
+    float: right;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+    cursor: pointer;
+}
+.footerbg .navmenu1
+{
+    font-size:medium;
+    display:inline-block;
+}
+.footerbg .navmenu1 a
+{
+    font-weight: 400;
+}
+.footerbg .navmenu1 a:hover
+{
+    background-color: #FDB62D;
+    border: #FDB62D 5px solid;
+    color:#2e2c2c;
+    border-radius: 13px;
+    transition: 0.5s;
+}
+/*====================================================================================*/
+.footerbg .plat2
+{
+    display:inline-flex;
+    float:right;
+    height: auto;
+    width:auto;
+    margin-left:auto; margin-right: auto;
+    padding:0px;
+}
+.footerbg .plat2 .paragraph
+{
+    font-size: 30px;
+}
+.footerbg .gotopbtn
+{
+    width:100%;
+    height:100%;
+    cursor: pointer;
+    
+}
+/*====================================================================================*/
+
+/*====================================================================================*/
+.footerbg .plat4
+{   
+    float:left;
+    display:block;
+    height: auto;
+    max-width: 240px;
+    width:auto;
+    margin-left:auto; margin-right: auto;
+    padding:0px;
+}
+.footerbg .plat4 .paragraph
+{
+    font-size: 30px;
+}
+.footerbg .icon
+{
+    width:20%;
+    height:auto;
+    display:inline-block;
+    overflow:hidden;
+    text-align: center;
+}
+.footerbg .icon img
+{
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+
+.footerbg li:hover a
+{
+    cursor: pointer;
+}
+.footerbg li:hover a
+{
+    background-color: #FDB62D;
+    color:#2e2c2c;
+    transition: .5s;
+    font-weight: 600;
+}
+/*====================================================================================*/
